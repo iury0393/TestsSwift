@@ -26,8 +26,8 @@ final class StringUtilsSpec: XCTestCase {
     
     func testReplaceText() {
         let text = "Iury"
-        let newText = text.replace(string: "Iury", replacement: "Lara")
+        let newText = text.replace(string: "I", replacement: "L")
         
-        XCTAssert(newText == "Lara", "Não fez a substituição.")
+        XCTAssert(newText == "Lury", "Não fez a substituição.")
     }
 }

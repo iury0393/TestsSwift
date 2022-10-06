@@ -18,6 +18,8 @@
 		8A8868BA28EF05B0007193FF /* TestsSwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8868B928EF05B0007193FF /* TestsSwiftUITestsLaunchTests.swift */; };
 		8A8868C728EF1B23007193FF /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8868C628EF1B23007193FF /* StringUtils.swift */; };
 		8A8868C928EF1E1B007193FF /* StringUtilsSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8868C828EF1E1B007193FF /* StringUtilsSpec.swift */; };
+		8A8868CB28EF5139007193FF /* AccountBalance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8868CA28EF5139007193FF /* AccountBalance.swift */; };
+		8A8868CD28EF51C6007193FF /* AccountBalanceSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8868CC28EF51C6007193FF /* AccountBalanceSpec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		8A8868B928EF05B0007193FF /* TestsSwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsSwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8A8868C628EF1B23007193FF /* StringUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtils.swift; sourceTree = "<group>"; };
 		8A8868C828EF1E1B007193FF /* StringUtilsSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtilsSpec.swift; sourceTree = "<group>"; };
+		8A8868CA28EF5139007193FF /* AccountBalance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBalance.swift; sourceTree = "<group>"; };
+		8A8868CC28EF51C6007193FF /* AccountBalanceSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBalanceSpec.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,7 @@
 				8A8868A128EF05AF007193FF /* LaunchScreen.storyboard */,
 				8A8868A428EF05AF007193FF /* Info.plist */,
 				8A8868C628EF1B23007193FF /* StringUtils.swift */,
+				8A8868CA28EF5139007193FF /* AccountBalance.swift */,
 			);
 			path = TestsSwift;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			children = (
 				8A8868AD28EF05B0007193FF /* TestsSwiftTests.swift */,
 				8A8868C828EF1E1B007193FF /* StringUtilsSpec.swift */,
+				8A8868CC28EF51C6007193FF /* AccountBalanceSpec.swift */,
 			);
 			path = TestsSwiftTests;
 			sourceTree = "<group>";
@@ -268,6 +274,7 @@
 				8A88689B28EF05AF007193FF /* ViewController.swift in Sources */,
 				8A88689728EF05AF007193FF /* AppDelegate.swift in Sources */,
 				8A88689928EF05AF007193FF /* SceneDelegate.swift in Sources */,
+				8A8868CB28EF5139007193FF /* AccountBalance.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +284,7 @@
 			files = (
 				8A8868AE28EF05B0007193FF /* TestsSwiftTests.swift in Sources */,
 				8A8868C928EF1E1B007193FF /* StringUtilsSpec.swift in Sources */,
+				8A8868CD28EF51C6007193FF /* AccountBalanceSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
