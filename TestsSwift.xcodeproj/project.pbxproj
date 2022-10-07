@@ -22,6 +22,7 @@
 		8A8868CB28EF5139007193FF /* AccountBalance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8868CA28EF5139007193FF /* AccountBalance.swift */; };
 		8A8868CD28EF51C6007193FF /* AccountBalanceSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8868CC28EF51C6007193FF /* AccountBalanceSpec.swift */; };
 		8A8868D828F0554D007193FF /* StringUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8868D728F0554D007193FF /* StringUtilsTests.swift */; };
+		8A8868DA28F059BD007193FF /* BeforeEachAfterEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8868D928F059BD007193FF /* BeforeEachAfterEach.swift */; };
 		90E42F1157C3E3A2862943A6 /* Pods_TestsSwift_TestsSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C32CE8510C110D82B5CC12C8 /* Pods_TestsSwift_TestsSwiftUITests.framework */; };
 		DF4278CBA553AA3F2A2A5F3A /* Pods_TestsSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F3B0408B6BD19EA8606F520 /* Pods_TestsSwiftTests.framework */; };
 /* End PBXBuildFile section */
@@ -67,6 +68,7 @@
 		8A8868CA28EF5139007193FF /* AccountBalance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBalance.swift; sourceTree = "<group>"; };
 		8A8868CC28EF51C6007193FF /* AccountBalanceSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBalanceSpec.swift; sourceTree = "<group>"; };
 		8A8868D728F0554D007193FF /* StringUtilsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtilsTests.swift; sourceTree = "<group>"; };
+		8A8868D928F059BD007193FF /* BeforeEachAfterEach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeforeEachAfterEach.swift; sourceTree = "<group>"; };
 		C32CE8510C110D82B5CC12C8 /* Pods_TestsSwift_TestsSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestsSwift_TestsSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D137557AEC5509565E3AC645 /* Pods-TestsSwift-TestsSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestsSwift-TestsSwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-TestsSwift-TestsSwiftUITests/Pods-TestsSwift-TestsSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D77ED3329FC937DA3E8734EB /* Pods-TestsSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestsSwift.release.xcconfig"; path = "Target Support Files/Pods-TestsSwift/Pods-TestsSwift.release.xcconfig"; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 				8A8868C828EF1E1B007193FF /* StringUtilsSpec.swift */,
 				8A8868CC28EF51C6007193FF /* AccountBalanceSpec.swift */,
 				8A8868D728F0554D007193FF /* StringUtilsTests.swift */,
+				8A8868D928F059BD007193FF /* BeforeEachAfterEach.swift */,
 			);
 			path = TestsSwiftTests;
 			sourceTree = "<group>";
@@ -435,6 +438,7 @@
 			files = (
 				8A8868D828F0554D007193FF /* StringUtilsTests.swift in Sources */,
 				8A8868AE28EF05B0007193FF /* TestsSwiftTests.swift in Sources */,
+				8A8868DA28F059BD007193FF /* BeforeEachAfterEach.swift in Sources */,
 				8A8868C928EF1E1B007193FF /* StringUtilsSpec.swift in Sources */,
 				8A8868CD28EF51C6007193FF /* AccountBalanceSpec.swift in Sources */,
 			);
